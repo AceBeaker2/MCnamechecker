@@ -3,7 +3,7 @@ A simple bash script designed to bulk search og/special names for name sniping/a
 
 ## Usage
 
-- The main script, **./check.sh** will loop through **names.txt,** checking the names (with a 1 second delay to avoid getting rate limited) and printing only the available ones into the terminal. Simply run
+- The main script, **check.sh** will loop through **names.txt,** checking the names (with a 1 second delay to avoid getting rate limited) and printing only the available ones into the terminal. Simply run
  
   > ./check.sh | tee available.txt
 
