@@ -8,7 +8,9 @@ A simple bash script designed to bulk search og/special names for name sniping/a
   > ./check.sh | tee available.txt
 
   and it will also print out the available names to available.txt
-  (Note: filter.py will strip words.txt into filtered.txt by length)
+  
+  
+(Note: filter.py will strip words.txt into filtered.txt by length)
 ```mermaid
 sequenceDiagram
 check.sh ->> Mojang: Is the name 'X' available?
