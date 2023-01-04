@@ -6,7 +6,7 @@ for alpha1 in alphabets:
         for alpha3 in alphabets:
             keywords.append(alpha1+alpha2+alpha3)
 
-textfile = open("a_file.txt", "w")
+textfile = open("3gen.txt", "w")
 for element in keywords:
     textfile.write(element + "\n")
 textfile.close()
